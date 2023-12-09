@@ -136,3 +136,38 @@ export const mockOffersData = [
     linkedinLink: "https://www.linkedin.com/in/eugenibykovski/",
   },
 ];
+
+export const routes = [
+  {
+    id: 1,
+    title: "Home",
+    description:
+      "Lorem music ipsum mark topen aharin lorem ipsum Lorem music ipsum mark topen aharin lorem ipsum Lorem music ipsum mark topen aharin lorem ipsum Lorem music ipsum mark topen aharin lorem ipsum",
+    route: "/",
+  },
+  {
+    id: 2,
+    title: "Products",
+    description: "Wow, what are the perfect cards, gratefull, peacefull.",
+    route: "/products",
+  },
+  {
+    id: 3,
+    title: "Links",
+    description: "Some customer's links for you, my pleasure.",
+    route: "/links",
+  },
+  {
+    id: 4,
+    title: "Contacts",
+    description: "contacts of our company:",
+    route: "/contacts",
+  },
+  {
+    id: 5,
+    title: "About us",
+    description:
+      "Lorem music ipsum mark topen aharin lorem ipsum non for company.",
+    route: "/about_us",
+  },
+];
